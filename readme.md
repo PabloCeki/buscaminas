@@ -32,7 +32,7 @@ Servidor local en
 127.0.0.1:5050
 ```
 ## EndPoint 
-
+```
 [GET] /buscaminas/:id -> Integer
 [POST] /buscaminas/:id -> Integer Required
     Content-type: application/json
@@ -41,7 +41,7 @@ Servidor local en
     campo -> Array  Required
     resolved -> true | false | null
     }
-
+```
 ## Licencia
 
 MIT
