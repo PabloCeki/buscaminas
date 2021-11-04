@@ -22,7 +22,7 @@ module.exports = function (schemas, options, callback = null) {
     if (result) next();
     else {
         const message = ev.details.map(i => i.message).join(',');
-      res.send(400, message);
+      res.status(400).send(message);
     }
   };
 };
